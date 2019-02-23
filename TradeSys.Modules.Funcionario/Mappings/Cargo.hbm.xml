@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Funcionario" namespace="TradeSys.Modules.Funcionario.Domain"> 
+  
+  <class name="CargoModel" table="[Cargo]">
+
+    <id name="Id" column="IdCargo">
+      <generator class="native"/>
+    </id>
+    
+    <property name="Funcao"/>
+    <property name="Descricao"/>
+    <property name="SalarioBase"/>
+    <property name="ComissaoBase"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+  
+</hibernate-mapping>

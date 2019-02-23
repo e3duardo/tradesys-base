@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Cliente" namespace="TradeSys.Modules.Cliente.Domain"> 
+  
+  <!--More mapping info here-->
+  <class name="ClienteModel" table="[Cliente]">
+    <id name="Id" column="IdCliente">
+      <generator class="native"/>
+    </id>
+    <property name="Nome"/>
+    <property name="Sobrenome"/>
+    <property name="Bairro"/>
+    <property name="Cep"/>
+    <property name="Cidade"/>
+    <property name="Complemento"/>
+    <property name="Estado"/>
+    <property name="Logadouro"/>
+    <property name="Email"/>
+    
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+  </class>
+  
+</hibernate-mapping>

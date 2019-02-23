@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TradeSys.App">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAABAgAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.EnterpriseLibraryLoggerAdapter" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnterpriseLibraryLoggerAdapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TradeSys.Shell">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shell.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.ShellViewModel">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShellViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.TradeSysBootstrapper">
+    <Position X="9" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAQAgAIAAAAAAAIAEAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TradeSysBootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.VisibilityToStarHeightConverter" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VisibilityToStarHeightConverter.Desktop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TradeSys.Controls.AnimatedTabControl">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAACAAAAAAAAAAAAAAIAAAAAAAAAAAAABACAAA=</HashCode>
+      <FileName>Controls\AnimatedTabControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.Controls.ResearchControl">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAACAAAAAAQABAAAAAAAAA=</HashCode>
+      <FileName>Controls\ResearchControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.Controls.RoundedBox">
+    <Position X="4.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controls\RoundedBox.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.Properties.Resources">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAIAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.Properties.Settings">
+    <Position X="7" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TradeSys.Resources.ResourceNames">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Resources\ResourceNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

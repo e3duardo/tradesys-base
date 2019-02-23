@@ -1,0 +1,9 @@
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Prism.TestSupport.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Prism.TestSupport.pdb
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\obj\Debug\Prism.TestSupport.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\Prism.TestSupport\obj\Debug\Prism.TestSupport.pdb

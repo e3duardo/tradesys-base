@@ -1,0 +1,13 @@
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\bin\Debug\TradeSys.ChartControls.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\bin\Debug\TradeSys.ChartControls.pdb
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls_MarkupCompile.cache
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls_MarkupCompile.lref
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\themes\generic.baml
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls.g.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls.Properties.Resources.resources
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\ChartControls\obj\Debug\TradeSys.ChartControls.pdb

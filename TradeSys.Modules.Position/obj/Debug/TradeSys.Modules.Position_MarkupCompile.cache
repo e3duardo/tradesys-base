@@ -1,0 +1,20 @@
+﻿TradeSys.Modules.Position
+
+
+library
+C#
+.cs
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Position\obj\Debug\
+TradeSys.Modules.Position
+none
+false
+DEBUG;TRACE
+
+6310935740
+
+35964104297
+19730227939
+Orders\OrderCommandsView.xaml;Orders\OrderCompositeView.xaml;Orders\OrderDetailsView.xaml;Orders\OrdersView.xaml;PositionSummary\PositionPieChartView.xaml;PositionSummary\PositionSummaryView.xaml;
+
+True
+

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Financeiro" namespace="TradeSys.Modules.Financeiro.Domain"> 
+  
+  <class name="FormaPagamentoModel" table="[FormaPagamento]">
+    
+    <id name="Id" column="IdFormaPagamento">
+      <generator class="native"/>
+    </id>
+
+
+    <property name="Nome"/>
+    <property name="Descricao"/>
+    <property name="Debito"/>
+    <property name="Parcelada"/>
+    <property name="ParcelaVariante"/>
+    <property name="Parcelas"/>
+    <property name="Juros"/>
+    <property name="Entrada"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+  
+</hibernate-mapping>

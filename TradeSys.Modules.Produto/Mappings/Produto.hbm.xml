@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Produto" namespace="TradeSys.Modules.Produto.Domain">
+
+  <class name="ProdutoModel" table="[Produto]">
+
+    <id name="Id" column="IdProduto">
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="Setor" class="SetorModel" column="IdSetor" />
+
+    <bag name="Fornecedor" table="Fornecedor_Produto" >
+      <key column="IdProduto"/>
+      <many-to-many column="IdFornecedor" class="FornecedorModel"/>
+    </bag>
+    
+    
+    <property name="Nome"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1c21a2c2-39ff-400a-8dc3-0e52d678189f" name="Eduardo@EDUARDO-PC 2011-07-01 17:24:15" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 17_24_15">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T17:24:15.8562000-03:00" queuing="2011-07-01T17:24:15.8812000-03:00" start="2011-07-01T17:24:15.8922000-03:00" finish="2011-07-01T17:24:17.8712000-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_new_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="1472574d-cb27-84c1-1e95-292c75c68c19">
+      <Execution id="3ee83379-5403-44fd-9d02-df29f0312751" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1472574d-cb27-84c1-1e95-292c75c68c19" executionId="3ee83379-5403-44fd-9d02-df29f0312751" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3ee83379-5403-44fd-9d02-df29f0312751" testId="1472574d-cb27-84c1-1e95-292c75c68c19" testName="Can_add_new_product" computerName="EDUARDO-PC" duration="00:00:01.5978568" startTime="2011-07-01T17:24:15.8992000-03:00" endTime="2011-07-01T17:24:17.7692000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ee83379-5403-44fd-9d02-df29f0312751">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product gerou exceção: 
+NHibernate.Exceptions.GenericADOException: could not execute batch command.[SQL: SQL not available] ---&gt; System.Data.SqlClient.SqlException: Invalid column name 'Sys_Ativo'.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.SqlClient.SqlCommand.ExecuteBatchRPCCommand()
+   at System.Data.SqlClient.SqlCommandSet.ExecuteNonQuery()
+   at NHibernate.AdoNet.SqlClientSqlCommandSet.ExecuteNonQuery() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\SqlClientSqlCommandSet.cs:line 117
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\SqlClientBatchingBatcher.cs:line 79
+ --- Fim de rastreamento de pilha de exceção interna ---
+    at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\SqlClientBatchingBatcher.cs:line 95
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\AbstractBatcher.cs:line 431
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\AbstractBatcher.cs:line 416
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Engine\ActionQueue.cs:line 129
+   at NHibernate.Engine.ActionQueue.ExecuteActions() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Engine\ActionQueue.cs:line 169
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Event\Default\AbstractFlushingEventListener.cs:line 249
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Event\Default\DefaultFlushEventListener.cs:line 19
+   at NHibernate.Impl.SessionImpl.Flush() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Impl\SessionImpl.cs:line 1472
+   at NHibernate.Transaction.AdoTransaction.Commit() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Transaction\AdoTransaction.cs:line 187
+   at TradeSys.Modules.Cliente.Repositories.ClientesRepository.Add(Clientes cliente) in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\Repositories\ClientesRepository.cs:line 18
+   at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

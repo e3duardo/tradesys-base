@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C1FE81C-7024-43F0-ABBB-F6CDBCFE3A2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TradeSys.Infrastructure</RootNamespace>
+    <AssemblyName>TradeSys.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>..\Bin\Desktop\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Desktop\CommonServiceLocation\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behaviors\AutoPopulateExportedViewsBehavior.cs" />
+    <Compile Include="Behaviors\DialogActivationBehavior.cs" />
+    <Compile Include="Behaviors\IViewRegionRegistration.cs" />
+    <Compile Include="Behaviors\IWindow.cs" />
+    <Compile Include="Behaviors\RegionPopupBehaviors.cs" />
+    <Compile Include="Behaviors\ReturnCommandBehavior.cs" />
+    <Compile Include="Behaviors\ViewExportAttribute.cs" />
+    <Compile Include="Behaviors\WindowDialogActivationBehavior.cs" />
+    <Compile Include="Behaviors\WindowWrapper.cs" />
+    <Compile Include="DiscoveryMethod.cs" />
+    <Compile Include="DownloadTiming.cs" />
+    <Compile Include="Interfaces\IModulesLoadedService.cs" />
+    <Compile Include="Models\Module.cs" />
+    <Compile Include="ModuleTrackingState.cs" />
+    <Compile Include="ModuleTracker.cs" />
+    <Compile Include="ModuleInitializationStatus.cs" />
+    <Compile Include="Controls\AnimatedTabControl.cs" />
+    <Compile Include="Controls\ResearchControl.cs" />
+    <Compile Include="Controls\RoundedBox.xaml.cs">
+      <DependentUpon>RoundedBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\CurrencyConverter.cs" />
+    <Compile Include="Converters\DecimalToColorConverter.cs" />
+    <Compile Include="Converters\ErrorConverter.cs" />
+    <Compile Include="Converters\PercentConverter.cs" />
+    <Compile Include="Converters\StringToNullableNumberConverter.cs" />
+    <Compile Include="Converters\TransactionTypeToStringConverter.cs" />
+    <Compile Include="ExtendedHeader.cs" />
+    <Compile Include="InputValidationException.cs" />
+    <Compile Include="Interfaces\IAccountPositionModel.cs" />
+    <Compile Include="Interfaces\IHeaderInfoProvider.cs" />
+    <Compile Include="Models\AccountPosition.cs" />
+    <Compile Include="Models\AccountPositionEventArgs.cs" />
+    <Compile Include="Models\AccountPositionModelEventArgs.cs" />
+    <Compile Include="Models\NewsFeedEventArgs.cs" />
+    <Compile Include="Resources\ResourceNames.cs" />
+    <Compile Include="ReturnKey.cs" />
+    <Compile Include="TickerSymbolSelectedEvent.cs" />
+    <Compile Include="MarketPricesUpdatedEvent.cs" />
+    <Compile Include="Interfaces\IMarketFeedService.cs" />
+    <Compile Include="Interfaces\IMarketHistoryService.cs" />
+    <Compile Include="Models\MarketHistoryCollection.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegionNames.cs" />
+    <Compile Include="TradeSysCommands.cs" />
+    <Compile Include="TransactionType.cs" />
+    <Compile Include="TreeHelper.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Converters\EnumToBooleanConverter.Desktop.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Controls\RoundedBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\TabItemResource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\WindowRegionResource.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_bl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_br.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_t.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_tl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\shadow_tr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\background2.png" />
+    <Resource Include="Resources\background3.png" />
+    <Resource Include="Resources\Blue.png" />
+    <Resource Include="Resources\BlueLarge.png" />
+    <Resource Include="Resources\Brown.png" />
+    <Resource Include="Resources\BrownLarge.png" />
+    <Resource Include="Resources\Gray.png" />
+    <Resource Include="Resources\GrayLarge.png" />
+    <Resource Include="Resources\Green.png" />
+    <Resource Include="Resources\GreenLarge.png" />
+    <Resource Include="Resources\IconPerson16.png" />
+    <Resource Include="Resources\IconPerson32.png" />
+    <Resource Include="Resources\Orange.png" />
+    <Resource Include="Resources\OrangeLarge.png" />
+    <Resource Include="Resources\Pink.png" />
+    <Resource Include="Resources\PinkLarge.png" />
+    <Resource Include="Resources\Red.png" />
+    <Resource Include="Resources\RedLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Yellow.png" />
+    <Resource Include="Resources\YellowLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TradeSys.ModulesTracking\TradeSys.ModulesTracking.csproj">
+      <Project>{86AC27FF-6E02-4BE2-9406-6524C7331F3E}</Project>
+      <Name>TradeSys.ModulesTracking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

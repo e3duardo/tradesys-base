@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e359cec3-379e-4975-9da4-f97724d9084c" name="Eduardo@EDUARDO-PC 2011-07-01 17:49:09" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 17_49_09">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T17:49:09.7362000-03:00" queuing="2011-07-01T17:49:10.9462000-03:00" start="2011-07-01T17:49:11.0612000-03:00" finish="2011-07-01T17:49:39.7242000-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="1" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_generate_schema" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="bfa9be77-851a-d53e-238f-07969e896e2e">
+      <Execution id="97963375-9cd6-4e98-8dd6-a687286a9b99" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.GenerateSchema_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_generate_schema" />
+    </UnitTest>
+    <UnitTest name="Can_update_existing_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="589b83fb-6446-6a74-4553-93493150b449">
+      <Execution id="b32ddefa-726f-4eb4-9040-7d651b42affc" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_update_existing_product" />
+    </UnitTest>
+    <UnitTest name="Can_add_new_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="1472574d-cb27-84c1-1e95-292c75c68c19">
+      <Execution id="f3b88b45-2865-412d-8129-296cc9c11612" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bfa9be77-851a-d53e-238f-07969e896e2e" executionId="97963375-9cd6-4e98-8dd6-a687286a9b99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1472574d-cb27-84c1-1e95-292c75c68c19" executionId="f3b88b45-2865-412d-8129-296cc9c11612" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="589b83fb-6446-6a74-4553-93493150b449" executionId="b32ddefa-726f-4eb4-9040-7d651b42affc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97963375-9cd6-4e98-8dd6-a687286a9b99" testId="bfa9be77-851a-d53e-238f-07969e896e2e" testName="Can_generate_schema" computerName="EDUARDO-PC" duration="00:00:01.4274367" startTime="2011-07-01T17:49:11.1162000-03:00" endTime="2011-07-01T17:49:13.2652000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97963375-9cd6-4e98-8dd6-a687286a9b99">
+    </UnitTestResult>
+    <UnitTestResult executionId="f3b88b45-2865-412d-8129-296cc9c11612" testId="1472574d-cb27-84c1-1e95-292c75c68c19" testName="Can_add_new_product" computerName="EDUARDO-PC" duration="00:00:19.6565723" startTime="2011-07-01T17:49:13.2762000-03:00" endTime="2011-07-01T17:49:32.9472000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3b88b45-2865-412d-8129-296cc9c11612">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product gerou exceção: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b32ddefa-726f-4eb4-9040-7d651b42affc" testId="589b83fb-6446-6a74-4553-93493150b449" testName="Can_update_existing_product" computerName="EDUARDO-PC" duration="00:00:06.3642220" startTime="2011-07-01T17:49:32.9572000-03:00" endTime="2011-07-01T17:49:39.3392000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b32ddefa-726f-4eb4-9040-7d651b42affc">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_update_existing_product gerou exceção: 
+NHibernate.StaleStateException: Batch update returned unexpected row count from update; actual row count: 0; expected: 1</Message>
+          <StackTrace>    at NHibernate.AdoNet.Expectations.VerifyOutcomeBatched(Int32 expectedRowCount, Int32 rowCount) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\Expectations.cs:line 106
+   at NHibernate.AdoNet.SqlClientBatchingBatcher.DoExecuteBatch(IDbCommand ps) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\SqlClientBatchingBatcher.cs:line 98
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatchWithTiming(IDbCommand ps) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\AbstractBatcher.cs:line 431
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteBatch() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\AdoNet\AbstractBatcher.cs:line 416
+   at NHibernate.Engine.ActionQueue.ExecuteActions(IList list) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Engine\ActionQueue.cs:line 129
+   at NHibernate.Engine.ActionQueue.ExecuteActions() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Engine\ActionQueue.cs:line 170
+   at NHibernate.Event.Default.AbstractFlushingEventListener.PerformExecutions(IEventSource session) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Event\Default\AbstractFlushingEventListener.cs:line 249
+   at NHibernate.Event.Default.DefaultFlushEventListener.OnFlush(FlushEvent event) in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Event\Default\DefaultFlushEventListener.cs:line 19
+   at NHibernate.Impl.SessionImpl.Flush() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Impl\SessionImpl.cs:line 1472
+   at NHibernate.Transaction.AdoTransaction.Commit() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Transaction\AdoTransaction.cs:line 187
+   at TradeSys.Modules.Cliente.Repositories.ClientesRepository.Update(Clientes cliente) in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\Repositories\ClientesRepository.cs:line 28
+   at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_update_existing_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

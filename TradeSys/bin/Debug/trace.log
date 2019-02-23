@@ -1,0 +1,494 @@
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Logger was created successfully.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Creating module catalog.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring module catalog.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Creating catalog for MEF
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring catalog for MEF
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Creating Mef container
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring MEF container
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring ServiceLocator singleton
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring region adapters
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Configuring default region behaviors
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Registering Framework Exception Types
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:30
+                      Message: Creating shell
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:31
+                      Message: Setting the RegionManager.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:31
+                      Message: Updating Regions.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:31
+                      Message: Initializing shell
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: Initializing modules
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleBase' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: There is no explicit mapping for the categories 'Info'. The log entry was: 
+Timestamp: 23/07/2011 15:25:38
+Message: ModuleA demonstrates logging during Initialize().
+Category: Info
+Priority: 2
+EventId: 1
+Severity: Information
+Title:
+Machine: EDUARDO-PC
+App Domain: TradeSys.vshost.exe
+ProcessId: 7032
+Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+Thread Name: 
+Win32 ThreadId:7452
+Extended Properties: 
+                      Category: 
+                      Priority: -1
+                      EventId: 6352
+                      Severity: Error
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleBase module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleCliente' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleCliente module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleFinanceiro' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleFinanceiro module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleFuncionario' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleFuncionario module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleProduto' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleProduto module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: 'ModuleVendaGeneric' module constructed.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: ModuleVendaGeneric module initialized.
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 23/07/2011 15:25:38
+                      Message: Bootstrapper sequence completed
+                      Category: Debug
+                      Priority: 3
+                      EventId: 1
+                      Severity: Information
+                      Title:
+                      Machine: EDUARDO-PC
+                      Application Domain: TradeSys.vshost.exe
+                      Process Id: 7032
+                      Process Name: C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys\bin\Debug\TradeSys.vshost.exe
+                      Win32 Thread Id: 7452
+                      Thread Name: 
+                      Extended Properties: 
+----------------------------------------

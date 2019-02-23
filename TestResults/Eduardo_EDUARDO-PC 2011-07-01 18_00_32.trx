@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="34c6015d-0012-47a9-98f2-e4588df7e315" name="Eduardo@EDUARDO-PC 2011-07-01 18:00:32" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 18_00_32">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T18:00:32.9212000-03:00" queuing="2011-07-01T18:00:32.9402000-03:00" start="2011-07-01T18:00:32.9502000-03:00" finish="2011-07-01T18:00:34.2942000-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_update_existing_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="589b83fb-6446-6a74-4553-93493150b449">
+      <Execution id="3da8ab6d-1fd2-4928-9eee-90fcbdbd83c2" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_update_existing_product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="589b83fb-6446-6a74-4553-93493150b449" executionId="3da8ab6d-1fd2-4928-9eee-90fcbdbd83c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3da8ab6d-1fd2-4928-9eee-90fcbdbd83c2" testId="589b83fb-6446-6a74-4553-93493150b449" testName="Can_update_existing_product" computerName="EDUARDO-PC" duration="00:00:01.0754924" startTime="2011-07-01T18:00:32.9642000-03:00" endTime="2011-07-01T18:00:34.2722000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3da8ab6d-1fd2-4928-9eee-90fcbdbd83c2">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_update_existing_product gerou exceção: 
+NHibernate.Bytecode.ProxyFactoryFactoryNotConfiguredException: The ProxyFactoryFactory was not configured.
+Initialize 'proxyfactory.factory_class' property of the session-factory configuration section with one of the available NHibernate.ByteCode providers.
+Example:
+&lt;property name='proxyfactory.factory_class'&gt;NHibernate.ByteCode.LinFu.ProxyFactoryFactory, NHibernate.ByteCode.LinFu&lt;/property&gt;
+Example:
+&lt;property name='proxyfactory.factory_class'&gt;NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle&lt;/property&gt;</Message>
+          <StackTrace>    at NHibernate.Bytecode.AbstractBytecodeProvider.get_ProxyFactoryFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Bytecode\AbstractBytecodeProvider.cs:line 32
+   at NHibernate.Cfg.Configuration.ValidateEntities() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1014
+   at NHibernate.Cfg.Configuration.Validate() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 947
+   at NHibernate.Cfg.Configuration.BuildSessionFactory() in d:\CSharp\NH\NH\nhibernate\src\NHibernate\Cfg\Configuration.cs:line 1239
+   at TradeSys.Modules.Cliente.Repositories.NHibernateHelper.get_SessionFactory() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\Repositories\NHibernateHelper.cs:line 24
+   at TradeSys.Modules.Cliente.Repositories.NHibernateHelper.OpenSession() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\Repositories\NHibernateHelper.cs:line 33
+   at TradeSys.Modules.Cliente.Repositories.ClientesRepository.Update(Clientes cliente) in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\Repositories\ClientesRepository.cs:line 24
+   at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_update_existing_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

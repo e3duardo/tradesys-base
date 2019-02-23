@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Financeiro" namespace="TradeSys.Modules.Financeiro.Domain"> 
+  
+  <class name="ParcelaModel" table="[Parcela]">
+
+    <id name="Id" column="IdParcela">
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="Transacao" class="TransacaoModel" column="IdTransacao" />
+
+    <property name="Vencimento"/>
+    <property name="Pagamento"/>
+    <property name="Valor"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+  
+</hibernate-mapping>

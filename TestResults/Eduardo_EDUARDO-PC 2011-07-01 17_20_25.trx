@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="493a0e93-0287-4760-b23d-c013dd5ae98a" name="Eduardo@EDUARDO-PC 2011-07-01 17:20:25" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 17_20_25">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T17:20:25.2092000-03:00" queuing="2011-07-01T17:20:26.4682000-03:00" start="2011-07-01T17:20:26.5672000-03:00" finish="2011-07-01T17:20:31.0112000-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_new_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="1472574d-cb27-84c1-1e95-292c75c68c19">
+      <Execution id="3a1e06fc-04b8-4f55-b4ae-07b04abf3092" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+    <UnitTest name="Can_generate_schema" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="bfa9be77-851a-d53e-238f-07969e896e2e">
+      <Execution id="883cd8dc-2a6c-4f65-90bb-20fb9c2c64b8" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.GenerateSchema_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_generate_schema" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bfa9be77-851a-d53e-238f-07969e896e2e" executionId="883cd8dc-2a6c-4f65-90bb-20fb9c2c64b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1472574d-cb27-84c1-1e95-292c75c68c19" executionId="3a1e06fc-04b8-4f55-b4ae-07b04abf3092" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="883cd8dc-2a6c-4f65-90bb-20fb9c2c64b8" testId="bfa9be77-851a-d53e-238f-07969e896e2e" testName="Can_generate_schema" computerName="EDUARDO-PC" duration="00:00:01.4212141" startTime="2011-07-01T17:20:26.6132000-03:00" endTime="2011-07-01T17:20:28.8252000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="883cd8dc-2a6c-4f65-90bb-20fb9c2c64b8">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a1e06fc-04b8-4f55-b4ae-07b04abf3092" testId="1472574d-cb27-84c1-1e95-292c75c68c19" testName="Can_add_new_product" computerName="EDUARDO-PC" duration="00:00:00.5636725" startTime="2011-07-01T17:20:28.8382000-03:00" endTime="2011-07-01T17:20:29.4162000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a1e06fc-04b8-4f55-b4ae-07b04abf3092">
+    </UnitTestResult>
+  </Results>
+</TestRun>

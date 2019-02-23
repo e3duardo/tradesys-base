@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c354e340-ff59-4c55-b848-4fd3ed59c9cc" name="Eduardo@EDUARDO-PC 2011-07-01 17:51:19" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 17_51_19">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T17:51:19.9222000-03:00" queuing="2011-07-01T17:51:19.9432000-03:00" start="2011-07-01T17:51:19.9552000-03:00" finish="2011-07-01T17:51:20.2602000-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_new_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="1472574d-cb27-84c1-1e95-292c75c68c19">
+      <Execution id="b6e472ef-ac31-4569-bef7-72ee8127a6ff" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1472574d-cb27-84c1-1e95-292c75c68c19" executionId="b6e472ef-ac31-4569-bef7-72ee8127a6ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b6e472ef-ac31-4569-bef7-72ee8127a6ff" testId="1472574d-cb27-84c1-1e95-292c75c68c19" testName="Can_add_new_product" computerName="EDUARDO-PC" duration="00:00:00.0474844" startTime="2011-07-01T17:51:19.9632000-03:00" endTime="2011-07-01T17:51:20.2382000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6e472ef-ac31-4569-bef7-72ee8127a6ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product gerou exceção: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

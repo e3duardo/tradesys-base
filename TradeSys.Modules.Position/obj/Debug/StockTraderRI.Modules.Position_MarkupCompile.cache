@@ -1,0 +1,20 @@
+﻿StockTraderRI.Modules.Position
+
+
+library
+C#
+.cs
+C:\Users\Eduardo\Desktop\Arquivos\Prismv4\StockTrader RI\Desktop\StockTraderRI.Modules.Position\obj\Debug\
+StockTraderRI.Modules.Position
+none
+false
+DEBUG;TRACE
+
+6310935740
+
+35964104297
+19-2001129556
+Orders\OrderCommandsView.xaml;Orders\OrderCompositeView.xaml;Orders\OrderDetailsView.xaml;Orders\OrdersView.xaml;PositionSummary\PositionPieChartView.xaml;PositionSummary\PositionSummaryView.xaml;
+
+False
+

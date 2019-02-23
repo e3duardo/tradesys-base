@@ -1,0 +1,15 @@
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Infrastructure.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Infrastructure.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Moq.xml
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Modules.News.Tests.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Modules.News.Tests.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\obj\Debug\TradeSys.Modules.News.Tests.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\obj\Debug\TradeSys.Modules.News.Tests.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Modules.News.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Modules.News.Tests\bin\Debug\TradeSys.Modules.News.pdb

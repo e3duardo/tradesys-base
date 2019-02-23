@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dff03081-a5d6-4ae0-a5c7-d994bafaa43b" name="Eduardo@EDUARDO-PC 2011-07-01 17:43:02" runUser="Eduardo-PC\Eduardo" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7ef37d7d-f819-4dc0-8582-747f2fb3fa77">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Eduardo_EDUARDO-PC 2011-07-01 17_43_02">
+      <DeploymentItem filename="C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente\bin\Debug\TradeSys.Modules.Cliente.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\Bin\NHibernate\NHibernate.ByteCode.LinFu.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-01T17:43:02.7602000-03:00" queuing="2011-07-01T17:43:02.7812000-03:00" start="2011-07-01T17:43:02.7962000-03:00" finish="2011-07-01T17:43:03.0912000-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_add_new_product" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="1472574d-cb27-84c1-1e95-292c75c68c19">
+      <Execution id="cd1d6c45-d994-47be-88aa-d48a26453b9c" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_add_new_product" />
+    </UnitTest>
+    <UnitTest name="CreateInitialData" storage="c:\users\eduardo\documents\visual studio 2010\projects\tradesys_base\tradesys.modules.cliente.tests\bin\debug\tradesys.modules.cliente.tests.dll" id="4ffd50f6-b53c-6429-540b-1a11d7ca463d">
+      <Execution id="18e27fc4-bf63-40aa-aa46-f20feaffd97e" />
+      <TestMethod codeBase="C:/Users/Eduardo/documents/visual studio 2010/Projects/TradeSys_Base/TradeSys.Modules.Cliente.Tests/bin/Debug/TradeSys.Modules.Cliente.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture, TradeSys.Modules.Cliente.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateInitialData" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados fora de uma Lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os Resultados Carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1472574d-cb27-84c1-1e95-292c75c68c19" executionId="cd1d6c45-d994-47be-88aa-d48a26453b9c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ffd50f6-b53c-6429-540b-1a11d7ca463d" executionId="18e27fc4-bf63-40aa-aa46-f20feaffd97e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cd1d6c45-d994-47be-88aa-d48a26453b9c" testId="1472574d-cb27-84c1-1e95-292c75c68c19" testName="Can_add_new_product" computerName="EDUARDO-PC" duration="00:00:00.0463475" startTime="2011-07-01T17:43:02.7972000-03:00" endTime="2011-07-01T17:43:03.0712000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd1d6c45-d994-47be-88aa-d48a26453b9c">
+      <Output>
+        <ErrorInfo>
+          <Message>Método de teste TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product gerou exceção: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture.Can_add_new_product() in C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.Modules.Cliente.Tests\ClienteRepository_Fixture.cs:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18e27fc4-bf63-40aa-aa46-f20feaffd97e" testId="4ffd50f6-b53c-6429-540b-1a11d7ca463d" testName="CreateInitialData" computerName="EDUARDO-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18e27fc4-bf63-40aa-aa46-f20feaffd97e">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Método CreateInitialData definido em classe TradeSys.Modules.Cliente.Tests.ClienteRepository_Fixture não possui assinatura correta. Método de teste marcado com o atributo [TestMethod] deve ser não-estático, público, não retorna um valor e não deveria receber nenhum parâmetro. por exemplo: public void Test.Class1.Test().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Financeiro" namespace="TradeSys.Modules.Financeiro.Domain"> 
+  
+  <class name="CaixaModel" table="[Caixa]">
+    
+    <id name="Id" column="IdCaixa">
+      <generator class="native"/>
+    </id>
+
+
+    <property name="Data"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+  
+</hibernate-mapping>

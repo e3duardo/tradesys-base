@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.VendaGeneric" namespace="TradeSys.Modules.VendaGeneric.Domain">
+
+  <class name="VendaModel" table="[Venda]">
+
+    <id name="Id" column="IdVenda">
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="Funcionario" column="IdFuncionario" class="TradeSys.Modules.Funcionario.Domain.FuncionarioModel, TradeSys.Modules.Funcionario"/>
+    <many-to-one name="Cliente" column="IdCliente" class="TradeSys.Modules.Cliente.Domain.ClienteModel, TradeSys.Modules.Cliente"/>
+    <many-to-one name="Transacao" column="IdTransacao" class="TradeSys.Modules.Financeiro.Domain.TransacaoModel, TradeSys.Modules.Financeiro"/>
+
+    <bag name="Produto" table="Venda_Produto" >
+      <key column="IdVenda"/>
+      <many-to-many column="IdProduto" class="TradeSys.Modules.Produto.Domain.ProdutoModel, TradeSys.Modules.Produto"/>
+    </bag>
+    
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="TradeSys.Modules.Cliente.ViewModel.ClienteInsertView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:inf="clr-namespace:TradeSys.Infrastructure;assembly=TradeSys.Infrastructure"
+             xmlns:infConverters="clr-namespace:TradeSys.Infrastructure.Converters;assembly=TradeSys.Infrastructure"
+             mc:Ignorable="d" 
+             d:DesignHeight="379" d:DesignWidth="699" Margin="6">
+
+    <UserControl.Resources>
+
+        <ControlTemplate x:Key="ErrorTemplate">
+            <Border BorderBrush="Red" BorderThickness="2">
+                <AdornedElementPlaceholder />
+            </Border>
+        </ControlTemplate>
+        <infConverters:ErrorConverter x:Key="errorConverter"/>
+        <Style x:Key="textBoxInError" TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="true">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors), Converter={StaticResource errorConverter}}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <infConverters:EnumToBooleanConverter x:Key="enumToBooleanConverter" />
+        <infConverters:StringToNullableNumberConverter x:Key="stringToNullableNumberConverter" />
+    </UserControl.Resources>
+
+    <Grid Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="51*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="123" />
+            <ColumnDefinition Width="260*" />
+            <ColumnDefinition Width="123" />
+            <ColumnDefinition Width="260*" />
+        </Grid.ColumnDefinitions>
+        
+        
+        <Label Content="Nome:" Name="label1" Margin="6" />
+        <TextBox Name="NomeTextBox" AutomationProperties.AutomationId="NomeTextBox" Text="{Binding Path=Nome, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Margin="6" />
+
+        <Label Content="Sobrenome:" Name="label2" Grid.Row="1" Margin="6" />
+        <TextBox Name="SobrenomeTextBox" AutomationProperties.AutomationId="SobrenomeTextBox" Text="{Binding Path=Sobrenome, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="1" Margin="6" />
+        
+        <Label Content="Bairro:" Name="label3" Grid.Row="2" Margin="6" />
+        <TextBox Name="BairroTextBox" AutomationProperties.AutomationId="BairroTextBox" Text="{Binding Path=Bairro, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="2" Margin="6" />
+        
+        <Label Content="CEP:" Grid.Row="3" Name="label4" Margin="6" />
+        <TextBox Name="CepTextBox" AutomationProperties.AutomationId="CepTextBox" Text="{Binding Path=Cep, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="3" Margin="6" />
+
+        <Label Content="Cidade:" Grid.Row="4" Name="label5" Margin="6" />
+        <TextBox Name="CidadeTextBox" AutomationProperties.AutomationId="CidadeTextBox" Text="{Binding Path=Cidade, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="4" Margin="6" />
+
+        <Label Content="Complemento:" Grid.Row="5" Name="label6" Margin="6" />
+        <TextBox Name="ComplementoTextBox" AutomationProperties.AutomationId="ComplementoTextBox" Text="{Binding Path=Complemento, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="5" Margin="6" />
+
+        <Label Content="Estado:" Grid.Row="6" Name="label7" Margin="6" />
+        <TextBox Name="EstadoTextBox" AutomationProperties.AutomationId="EstadoTextBox" Text="{Binding Path=Estado, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="6" Margin="6" />
+
+        <Label Content="Logadouro:" Grid.Row="7" Name="label8" Margin="6" />
+        <TextBox Name="LogadouroTextBox" AutomationProperties.AutomationId="LogadouroTextBox" Text="{Binding Path=Logadouro, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="7" Margin="6" />
+
+        <Label Content="Email:" Grid.Row="8" Name="label9" Margin="6" />
+        <TextBox Name="EmailTextBox" AutomationProperties.AutomationId="EmailTextBox" Text="{Binding Path=Email, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True, Converter={StaticResource stringToNullableNumberConverter}}" Validation.ErrorTemplate="{StaticResource ErrorTemplate}" Grid.Column="1" Grid.Row="8" Margin="6" />
+    </Grid>
+</UserControl>

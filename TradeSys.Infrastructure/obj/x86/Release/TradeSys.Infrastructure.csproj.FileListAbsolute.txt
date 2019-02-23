@@ -1,0 +1,13 @@
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\TradeSys.Infrastructure.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\TradeSys.Infrastructure.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\Microsoft.Practices.Prism.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\Microsoft.Practices.Prism.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\Microsoft.Practices.Prism.xml
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\bin\Release\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\TradeSys.Infrastructure.Properties.Resources.resources
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\TradeSys.Infrastructure.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\TradeSys_Base\TradeSys.Infrastructure\obj\x86\Release\TradeSys.Infrastructure.pdb

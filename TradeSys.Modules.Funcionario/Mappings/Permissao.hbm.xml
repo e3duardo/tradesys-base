@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="TradeSys.Modules.Funcionario" namespace="TradeSys.Modules.Funcionario.Domain"> 
+  
+  <class name="PermissaoModel" table="[Permissao]">
+
+    <id name="Id" column="IdPermissao">
+      <generator class="native"/>
+    </id>
+
+    <bag name="PermissaoItem" table="PermissaoItem_Permissao" >
+      <key column="IdPermissao"/>
+      <many-to-many column="IdPermissaoItem" class="PermissaoItemModel"/>
+    </bag>
+
+    <property name="Nome"/>
+    <property name="Descricao"/>
+
+    <property name="Sys_DataCadastro"/>
+    <property name="Sys_DataModificado"/>
+    <property name="Sys_Ativo"/>
+    
+  </class>
+  
+</hibernate-mapping>

@@ -1,0 +1,5 @@
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.ModulesTracking\bin\Debug\TradeSys.ModulesTracking.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.ModulesTracking\bin\Debug\TradeSys.ModulesTracking.pdb
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.ModulesTracking\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.ModulesTracking\obj\Debug\TradeSys.ModulesTracking.dll
+C:\Users\Eduardo\documents\visual studio 2010\Projects\TradeSys_Base\TradeSys.ModulesTracking\obj\Debug\TradeSys.ModulesTracking.pdb
